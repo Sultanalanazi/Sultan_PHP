@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<head>
+    <title> Lab 1 </title>
+</head>
+<body>
 <?php
 
 $age = 19;
@@ -16,6 +21,8 @@ else {
         print "<p>You are not allowed to buy mugs</p>";
 
 }
+if ($wantedgood="mugs")
+     print"<p>you have to be 18 to buy mugs</p>";
 if ($age >= 21) {
     print"<p>you are allowed to buy sausage rolls";
 }
@@ -41,3 +48,4 @@ switch ($numberOfHobbits) {
 }
 
 ?>
+</body>
