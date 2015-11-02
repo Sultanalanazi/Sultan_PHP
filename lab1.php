@@ -21,8 +21,10 @@ else {
         print "<p>You are not allowed to buy mugs</p>";
 
 }
-if ($wantedgood="mugs")
-     print"<p>you have to be 18 to buy mugs</p>";
+$wantedgood="mugs";
+if ($wantedgood=="mugs") {
+    print"<p>you have to be 18 to buy mugs</p>";
+}
 if ($age >= 21) {
     print"<p>you are allowed to buy sausage rolls";
 }
